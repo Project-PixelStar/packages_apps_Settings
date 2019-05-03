@@ -133,6 +133,7 @@ import com.android.settings.inputmethod.UserDictionaryList;
 import com.android.settings.inputmethod.UserDictionarySettings;
 import com.android.settings.language.LanguageAndInputSettings;
 import com.android.settings.language.LanguageSettings;
+import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.android.settings.localepicker.LocaleListEditor;
 import com.android.settings.location.LocationServices;
 import com.android.settings.location.LocationSettings;
@@ -378,8 +379,9 @@ public class SettingsGateway {
             ColorAndMotionFragment.class.getName(),
             LongBackgroundTasksDetails.class.getName(),
             RegionalPreferencesEntriesFragment.class.getName(),
-            BatteryInfoFragment.class.getName(),
-            UserAspectRatioDetails.class.getName()
+			BatteryInfoFragment.class.getName(),
+            UserAspectRatioDetails.class.getName(),
+            LiveDisplaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
