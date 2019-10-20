@@ -55,6 +55,14 @@
             android:fragment="com.android.settings.pixelstar.fragments.BrightnessSliderSettings"
             android:defaultValue="true" />
 
+        <!-- Network Traffic -->
+        <com.pixelstar.support.preferences.SystemSettingMasterSwitchPreference
+            android:key="network_traffic_state"
+            android:title="@string/network_traffic_state_title"
+            android:summary="@string/network_traffic_state_summary"
+            android:fragment="com.android.settings.pixelstar.fragments.NetworkTraffic"
+            android:defaultValue="false" />
+
         <com.pixelstar.support.preferences.SecureSettingSwitchPreference
                 android:key="qs_show_data_usage"
                 android:title="@string/qs_show_data_usage_title"
