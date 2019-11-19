@@ -484,4 +484,9 @@
     <string name="fast_charging_title">Fast charging</string>
     <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
     <string name="restricted_current_summary">Set max allowed current (mA)</string>
+
+    <!-- Doze on charge --> 
+    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_summary">Always show time and info only when the device is plugged in</string>
+
 </resources>
