@@ -60,4 +60,7 @@
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
 
+    <!-- Hardware Info -->
+    <string name="device_manufacturer">Manufacturer</string>
+    <string name="device_codename">Codename</string>
 </resources>
