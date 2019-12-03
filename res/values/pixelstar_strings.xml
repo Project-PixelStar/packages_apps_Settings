@@ -22,6 +22,10 @@
     <string name="pixelstar_version">Pixelstar version</string>
     <string name="pixelstar_version_default">Unknown</string>
     <string name="pixelstar_uri" translatable="false">https://github.com/Project-Pixelstar</string>
+    
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 
     <!-- Pixelstar maintainer -->
     <string name="maintainer">Maintainer</string>
