@@ -168,6 +168,10 @@
     <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
 
 
+    <!-- Immersive Navigation -->
+    <string name="immersive_navigation_title">Immersive Navigation</string>
+    <string name="immersive_navigation_summary">Hide the gesture pill and navigation bar padding</string>
+    
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
 
