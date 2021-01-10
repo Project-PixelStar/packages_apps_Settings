@@ -216,4 +216,9 @@
     <!-- Text shown for the title of the restart systemui option -->
     <string name="power_menu_restart_systemui_title">Restart SystemUI</string>
 
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+
 </resources>
