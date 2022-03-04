@@ -61,6 +61,10 @@ public class Settings extends SettingsActivity {
     public static class PrivateSpaceBiometricSettingsActivity extends SettingsActivity {
         /* empty */
     }
+
+    public static class ThemeActivity extends SettingsActivity { /* empty */ }
+    public static class FontsPickerActivity extends SettingsActivity { /* empty */ }
+
     public static class VpnSettingsActivity extends SettingsActivity { /* empty */ }
     /** Activity for Data saver settings. */
     public static class DataSaverSummaryActivity extends SettingsActivity { /* empty */ }
@@ -510,4 +514,7 @@ public class Settings extends SettingsActivity {
      * Activity for WirelessDebuggingActivity
      */
     public static class WirelessDebuggingActivity extends SettingsActivity { /* empty */ }
+
+    // StarField Additions.
+    public static class StarfieldSettingsActivity extends SettingsActivity {}
 }

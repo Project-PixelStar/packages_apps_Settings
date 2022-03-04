@@ -207,6 +207,9 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.android.settings.livedisplay.LiveDisplaySettings;
+import com.star.field.StarfieldDashboard;
+import com.star.field.category.Theme;
+import com.star.field.fragments.FontsPicker;
 
 public class SettingsGateway {
 
@@ -402,7 +405,10 @@ public class SettingsGateway {
             AccessibilityHearingAidsFragment.class.getName(),
             HearingDevicePairingFragment.class.getName(),
             LiveDisplaySettings.class.getName(),
-            WirelessDebuggingFragment.class.getName()
+            WirelessDebuggingFragment.class.getName(),
+            StarfieldDashboard.class.getName(),
+            Theme.class.getName(),
+            FontsPicker.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -450,5 +456,8 @@ public class SettingsGateway {
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.WirelessDebuggingActivity.class.getName(),
+            Settings.StarfieldSettingsActivity.class.getName(),
+            Settings.FontsPickerActivity.class.getName(),
+            Settings.ThemeActivity.class.getName(),
     };
 }
