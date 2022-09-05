@@ -175,7 +175,12 @@
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Hide developer status</string>
     <string name="hide_developer_status_summary">Hide developer status from apps</string>
-    
+
+    <!-- Per-app volume control -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+
         <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Always on display schedule</string>
     <string name="always_on_display_schedule_sunset">Sunset</string>
@@ -186,7 +191,7 @@
 
     <!-- Wifi Display settings. The title of a menu item to disable mirroring confimration [CHAR LIMIT=40] -->
     <string name="mirroring_confirmation_disable_menu_item">Disable mirroring confirmation</string>
-    
+
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
 
