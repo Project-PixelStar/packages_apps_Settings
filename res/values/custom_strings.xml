@@ -263,4 +263,8 @@
     <string name="qs_footer_datausage_title">Data usage</string>
     <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
 
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+
 </resources>
