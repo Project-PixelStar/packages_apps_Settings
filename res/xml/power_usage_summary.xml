@@ -82,7 +82,20 @@
         android:summary="@string/fast_charging_summary"
         settings:controller="com.android.settings.fuelgauge.FastChargingPreferenceController"/>
 
+    <Preference
+        android:key="app_battery_usage"
+        android:order="3"
+        android:title="@string/app_battery_usage_title"
+        android:summary="@string/app_battery_usage_summary"
+        settings:controller="com.android.settings.applications.AppBatteryUsagePreferenceController"
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications">
+        <extra
+        android:name="classname"
+        android:value="com.android.settings.Settings$AppBatteryUsageActivity"/>
+    </Preference>
+
     <com.android.settings.fuelgauge.batteryusage.PowerGaugePreference
+        android:order="4"
         android:key="battery_temp"
         android:title="@string/battery_temp"
         android:selectable="false" />
