@@ -130,6 +130,12 @@
         	android:fragment="com.android.settings.pixelstar.fragments.AmbientCustomization"
         	settings:searchable="false" />
         	
+        <SwitchPreference
+            android:key="doze_on_charge"
+            android:title="@string/doze_on_charge_title"
+            android:summary="@string/doze_on_charge_summary"
+            settings:controller="com.android.settings.display.DozeOnChargePreferenceController" />
+               
         <com.android.settingslib.PrimarySwitchPreference
             android:key="ambient_display_pick_up"
             android:title="@string/ambient_display_pickup_title"

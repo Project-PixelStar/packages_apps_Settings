@@ -784,4 +784,8 @@
     <!-- Media player settings -->
     <string name="media_controls_always_show_time_title">Media show time</string>
     <string name="media_controls_always_show_time_summary">Always show passed and total time on media player</string>
+    
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always show when charging</string>
+    <string name="doze_on_charge_summary">Display device is charging</string>
 </resources>
