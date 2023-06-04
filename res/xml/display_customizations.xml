@@ -173,5 +173,11 @@
             android:title="@string/netflix_spoof_title"
             android:summary="@string/netflix_spoof_summary"
             android:defaultValue="false" />
+            
+		<com.pixelstar.support.preferences.SecureSettingSwitchPreference
+            android:key="spoof_storage_encryption_status"
+            android:title="@string/spoof_storage_encryption_status_title"
+            android:summary="@string/spoof_storage_encryption_status_summary"
+            android:defaultValue="false"/>
     </PreferenceCategory>   
 </PreferenceScreen>
