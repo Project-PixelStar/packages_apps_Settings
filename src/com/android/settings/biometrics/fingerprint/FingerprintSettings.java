@@ -248,7 +248,7 @@ public class FingerprintSettings extends SubSettings {
                     }
 
                     private void updateDialog() {
-                        if (isSfps() && mFingerprintWakeAndUnlock) {
+                        if (!isUdfps() && mFingerprintWakeAndUnlock) {
                             setRequireScreenOnToAuthVisibility();
                         }
                         RenameDialog renameDialog = (RenameDialog) getFragmentManager().
@@ -525,7 +525,7 @@ public class FingerprintSettings extends SubSettings {
                     });
             mFingerprintUnlockCategory.setVisible(false);
 
-            if (isSfps() && mFingerprintWakeAndUnlock) {
+            if (!isUdfps() && mFingerprintWakeAndUnlock) {
                 setRequireScreenOnToAuthVisibility();
             }
             setPreferenceScreen(root);
