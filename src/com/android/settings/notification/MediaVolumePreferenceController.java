@@ -88,7 +88,7 @@ public class MediaVolumePreferenceController extends VolumeSeekBarPreferenceCont
 
     @Override
     public int getMuteIcon() {
-        return R.drawable.ic_media_stream_off;
+        return R.drawable.ic_media_off;
     }
 
     @VisibleForTesting
