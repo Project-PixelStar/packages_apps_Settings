@@ -39,7 +39,7 @@
     <com.android.settingslib.RestrictedPreference
         android:key="add_bt_devices"
         android:title="@string/bluetooth_pairing_pref_title"
-        android:icon="@drawable/ic_add_24dp"
+        android:icon="@drawable/new_add"
         android:summary="@string/connected_device_add_device_summary"
         android:fragment="com.android.settings.bluetooth.BluetoothPairingDetail"
         settings:keywords="@string/keywords_add_bt_device"
@@ -55,7 +55,7 @@
         <Preference
             android:key="previously_connected_devices_see_all"
             android:title="@string/previous_connected_see_all"
-            android:icon="@drawable/ic_chevron_right_24dp"
+            android:icon="@drawable/new_right"
             android:order="10"
             settings:searchable="false"
             android:fragment="com.android.settings.connecteddevice.PreviouslyConnectedDeviceDashboardFragment"/>
