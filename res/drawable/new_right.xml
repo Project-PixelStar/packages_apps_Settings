@@ -22,16 +22,16 @@
     <!-- Circle background -->
     <path
         android:fillColor="?android:attr/colorAccent"
-        android:pathData="M 15 15 m -14,0 a 14,14 0 1,0 28,0 a 14,14 0 1,0 -28,0" />
+        android:pathData="M 15 15 m -15,0 a 15,15 0 1,0 30,0 a 15,15 0 1,0 -30,0" />
 
     <group
-        android:name="group_media_logo"
-        android:scaleX="0.8"
-        android:scaleY="0.8"
-        android:translateX="5.7"
-        android:translateY="5.5">
+        android:name="group_logo"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:translateX="4.5"
+        android:translateY="4.2">
 
-        <!-- Right logo -->
+        <!-- Add logo -->
         <path
             android:fillColor="?android:attr/colorPrimary"
             android:pathData="M9.71,18.71l-1.42,-1.42l5.3,-5.29l-5.3,-5.29l1.42,-1.42l6.7,6.71z"/>
@@ -39,3 +39,5 @@
 
     </group>
 </vector>
+
+
