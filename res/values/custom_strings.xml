@@ -230,4 +230,7 @@
     <string name="less_boring_heads_up_title">Make heads up less annoying</string>
     <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app if they are not in foreground</string>
 
+    <!-- Qs Panel Haptics -->
+    <string name="qs_panel_tile_haptic_title">Haptics for QS Panel</string>
+
 </resources>

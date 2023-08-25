@@ -288,4 +288,9 @@
         android:order="100"
         settings:controller="com.android.settings.notification.WorkSoundsPreferenceController"/>
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="qs_panel_tile_haptic"
+        android:title="@string/qs_panel_tile_haptic_title"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
