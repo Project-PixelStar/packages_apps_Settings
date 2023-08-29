@@ -22,21 +22,21 @@
     <SwitchPreference
         android:key="enable_wifi_wakeup"
         android:title="@string/wifi_wakeup"
-        android:icon="@drawable/ic_auto_wifi"
+        android:icon="@drawable/new_auto_wifi"
         android:summary="@string/wifi_wakeup_summary"
         settings:controller="com.android.settings.wifi.WifiWakeupPreferenceController"/>
 
     <SwitchPreference
         android:key="notify_open_networks"
         android:title="@string/wifi_notify_open_networks"
-        android:icon="@drawable/ic_open_wifi_notifications"
+        android:icon="@drawable/new_open_wifi_notifications"
         android:summary="@string/wifi_notify_open_networks_summary"
         settings:keywords="@string/keywords_wifi_notify_open_networks"
         settings:controller="com.android.settings.wifi.NotifyOpenNetworksPreferenceController"/>
 
     <ListPreference
         android:key="wifi_timeout"
-        android:icon="@drawable/ic_wifi_off"
+        android:icon="@drawable/new_wifi_off"
         android:title="@string/wifi_timeout"
         android:summary="@string/wifi_timeout_summary"
         android:entries="@array/custom_timeout_entries"
