@@ -780,4 +780,8 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel animation</string>
     <string name="pixel_navbar_anim_summary">Enable pixel style animation for 3-button navigation bar</string>
+    
+    <!-- Media player settings -->
+    <string name="media_controls_always_show_time_title">Media show time</string>
+    <string name="media_controls_always_show_time_summary">Always show passed and total time on media player</string>
 </resources>
