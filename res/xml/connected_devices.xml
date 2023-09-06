@@ -49,7 +49,7 @@
 
     <ListPreference
         android:key="bluetooth_timeout"
-        android:icon="@drawable/new_bluetooth_disabled"
+        android:icon="@drawable/ic_bluetooth_disabled"
         android:title="@string/bluetooth_timeout"
         android:summary="@string/bluetooth_timeout_summary"
         android:entries="@array/custom_timeout_entries"
