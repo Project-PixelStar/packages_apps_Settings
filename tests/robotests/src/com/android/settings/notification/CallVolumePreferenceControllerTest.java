@@ -72,7 +72,7 @@ public class CallVolumePreferenceControllerTest {
 
     @Test
     public void getMuteIcon_shouldEqualToOriginalIcon() {
-        assertThat(mController.getMuteIcon()).isEqualTo(R.drawable.ic_call_vol);
+        assertThat(mController.getMuteIcon()).isEqualTo(R.drawable.ic_local_phone_24_lib);
     }
 
     @Test
