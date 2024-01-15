@@ -87,7 +87,12 @@
             android:title="@string/show_fourg_icon_title"
             android:summary="@string/show_fourg_icon_summary"
             android:defaultValue="true"/>
-            
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="system_category"
+        android:title="@string/system_category_title">
+        
         <com.pixelstar.support.preferences.SystemSettingSwitchPreference
             android:key="enable_ripple_effect"
             android:title="@string/enable_fingerprint_ripple_effect_title"
