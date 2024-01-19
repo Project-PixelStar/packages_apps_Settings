@@ -174,6 +174,7 @@
     <string name="quicksettings_category_title">Quick Settings Customizations</string>
     <string name="statusbar_category_title">Statusbar Customizations</string>
     <string name="system_category_title">System Customizations</string>
+    <string name="spoof_category_title">Spoofing Customizations</string>
     
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
@@ -654,4 +655,30 @@
     <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
     <string name="gesture_wake_ambient">Show Ambient</string>
     <string name="gesture_wake">Fully wake</string>
+    
+ 	<!-- Unlimited Photos storage -->
+    <string name="photos_spoof_title">Unlimited Photos storage</string>
+    <string name="photos_spoof_summary">Spoof your device as Pixel XL for the Google Photos app only to provide unlimited storage for backup</string>
+
+    <!-- Unlock FPS for specific games -->
+    <string name="games_spoof_title">Unlock higher FPS in games</string>
+    <string name="games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
+
+    <!-- Netflix Spoof -->
+    <string name="netflix_spoof_title">Netflix spoof</string>
+    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
+    
+    <!-- Pif -->
+    <string name="pif_title">Play integrity fix</string>
+    <string name="pif_summary">View current values used to spoof GMS</string>
+    <string name="pif_spoof_title">Enable ROM-side Play integrity fix</string>
+    <string name="pif_spoof_summary">Disable to allow module usage with custom fingerprint values</string>
+
+    <!-- PixelProps -->
+    <string name="spoof_as_pixel_title">Enable Pixel Props</string>
+    <string name="spoof_as_pixel_summary">Spoof your device as Pixel 5 for Google apps. Keep enabled on non-Pixel devices</string>
+    <string name="spoof_recent_pixel_title">Spoof as Pixel 8 Pro</string>
+    <string name="spoof_recent_pixel_summary">Spoof your device as Pixel 8 Pro for our selected Google apps. Turn off when using a real Pixel device</string>
+    <string name="spoof_recent_pixel_all_title">Spoof as Pixel 8 Pro for all Google apps</string>
+    <string name="spoof_recent_pixel_all_summary">Spoof your device as Pixel 8 Pro for all Google apps. Turn off when using a real Pixel device. May lead to unintended heating or battery drain</string>
 </resources>
