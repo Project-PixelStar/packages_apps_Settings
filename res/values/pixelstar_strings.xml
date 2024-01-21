@@ -168,8 +168,8 @@
     <!-- Customization category -->
     <string name="customization_category_title">Customization</string>
     <string name="clocksettings_category_title">Clock Customizations</string>
-    <string name="display_customization_title">Display Customizations</string>
-    <string name="display_customization_summary">Adjust statusbar and quick settings</string>
+    <string name="display_customization_title">Pixelstar Hub</string>
+    <string name="display_customization_summary">Customize your Pixelstar</string>
     <string name="lockscreen_tweaks_category_title">Lockscreen Customizations</string>
     <string name="quicksettings_category_title">Quick Settings Customizations</string>
     <string name="statusbar_category_title">Statusbar Customizations</string>
