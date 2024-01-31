@@ -118,18 +118,25 @@
             settings:controller="com.android.settings.gestures.DoubleTapScreenPreferenceController" />
 
           <Preference
-               android:key="pulse_settings"
-               android:fragment="com.android.settings.pixelstar.fragments.PulseSettings"
-               android:title="@string/pulse_settings"
-               android:summary="@string/pulse_settings_summary" />
+            android:key="pulse_settings"
+            android:fragment="com.android.settings.pixelstar.fragments.PulseSettings"
+            android:title="@string/pulse_settings"
+            android:summary="@string/pulse_settings_summary" />
                
+        <Preference
+        	android:key="ambient_customization"
+        	android:title="@string/pulse_ambient_light_title"
+        	android:summary="@string/pulse_ambient_light_text"
+        	android:fragment="com.android.settings.pixelstar.fragments.AmbientCustomization"
+        	settings:searchable="false" />
+        	
         <com.android.settingslib.PrimarySwitchPreference
             android:key="ambient_display_pick_up"
             android:title="@string/ambient_display_pickup_title"
             android:fragment="com.android.settings.gestures.PickupGestureSettings"
             settings:searchable="false"
             settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
-
+           
         <Preference
             android:key="gesture_screen_off_udfps_input_summary"
             android:title="@string/ambient_display_screen_off_udfps_title"
