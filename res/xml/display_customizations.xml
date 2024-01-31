@@ -98,6 +98,12 @@
             android:title="@string/enable_fingerprint_ripple_effect_title"
             android:summary="@string/enable_fingerprint_ripple_effect_summary"
             android:defaultValue="true" />
+            
+		<com.pixelstar.support.preferences.SystemSettingSwitchPreference
+				android:key="pixel_nav_animation"
+				android:title="@string/pixel_navbar_anim_title"
+				android:summary="@string/pixel_navbar_anim_summary"
+				android:defaultValue="true" />
     </PreferenceCategory>
     
     <PreferenceCategory

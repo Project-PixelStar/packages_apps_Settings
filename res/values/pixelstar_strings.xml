@@ -776,4 +776,8 @@
     <string name="pulse_light_both">All Four Sides</string>
     <string name="pulse_light_top_bottom">Only Top-Bottom</string>
     <string name="pulse_light_left_right">Only Left-Right</string>
+    
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Pixel animation</string>
+    <string name="pixel_navbar_anim_summary">Enable pixel style animation for 3-button navigation bar</string>
 </resources>
