@@ -899,16 +899,6 @@
     <!-- Battery Info: Charge Counter -->
     <string name="battery_charge_counter_summary">%1$d mAh</string>
 
-    <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
-    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
-
-    <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
-    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
-    
     <!-- Snapchat Spoof -->
     <string name="snapchat_spoof_title">Snapchat spoof</string>
     <string name="snapchat_spoof_summary">Spoof your device as Pixel 2 for Snapchat to allow original quality captures</string>
