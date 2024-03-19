@@ -30,7 +30,7 @@ import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.slices.Sliceable;
 
-public class PixelstarVersionPreferenceController extends BasePreferenceController {
+public class PixelStarVersionPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "pixelstarVersionDialogCtrl";
 
@@ -39,7 +39,7 @@ public class PixelstarVersionPreferenceController extends BasePreferenceControll
 
     private final PackageManager mPackageManager;
 
-    public PixelstarVersionPreferenceController(Context context, String preferenceKey) {
+    public PixelStarVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
         mPackageManager = mContext.getPackageManager();
     }

@@ -36,21 +36,21 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Pixelstar version -->
+    <!-- PixelStar version -->
     <Preference
         android:key="pixelstar_version"
         android:title="@string/pixelstar_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.PixelstarVersionPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.PixelStarVersionPreferenceController"/>
 
-    <!-- Pixelstar maintainer -->
+    <!-- PixelStar maintainer -->
     <Preference
         android:key="maintainer"
         android:title="@string/maintainer"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.pixelstar.PixelstarMaintainerPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.pixelstar.PixelStarMaintainerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference

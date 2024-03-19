@@ -25,11 +25,11 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class PixelstarMaintainerPreferenceController extends BasePreferenceController {
+public class PixelStarMaintainerPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "PixelstarMaintainerPreferenceController";
+    private static final String TAG = "PixelStarMaintainerPreferenceController";
 
-    public PixelstarMaintainerPreferenceController(Context context, String key) {
+    public PixelStarMaintainerPreferenceController(Context context, String key) {
         super(context, key);
     }
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2020-2023 The Pixelstar Project
+     Copyright (C) 2020-2023 The PixelStar Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,10 +18,10 @@
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Build date</string>
 
-    <!-- Pixelstar version -->
-    <string name="pixelstar_version">Pixelstar version</string>
+    <!-- PixelStar version -->
+    <string name="pixelstar_version">PixelStar version</string>
     <string name="pixelstar_version_default">Unknown</string>
-    <string name="pixelstar_uri" translatable="false">https://github.com/Project-Pixelstar</string>
+    <string name="pixelstar_uri" translatable="false">https://github.com/Project-PixelStar</string>
 
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Smart Pause</string>
@@ -83,7 +83,7 @@
         Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
     </string>
 
-    <!-- Pixelstar maintainer -->
+    <!-- PixelStar maintainer -->
     <string name="maintainer">Maintainer</string>
     <string name="pixelstar_maintainer" translatable="false">Unofficial Maintainer</string>
 
@@ -168,8 +168,8 @@
     <!-- Customization category -->
     <string name="customization_category_title">Customization</string>
     <string name="clocksettings_category_title">Clock Customizations</string>
-    <string name="display_customization_title">Pixelstar Hub</string>
-    <string name="display_customization_summary">Customize your Pixelstar</string>
+    <string name="display_customization_title">PixelStar Hub</string>
+    <string name="display_customization_summary">Customize your PixelStar</string>
     <string name="lockscreen_tweaks_category_title">Lockscreen Customizations</string>
     <string name="quicksettings_category_title">Quick Settings Customizations</string>
     <string name="statusbar_category_title">Statusbar Customizations</string>
