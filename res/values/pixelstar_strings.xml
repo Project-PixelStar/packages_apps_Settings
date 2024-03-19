@@ -167,14 +167,13 @@
 
     <!-- Customization category -->
     <string name="customization_category_title">Customization</string>
-    <string name="clocksettings_category_title">Clock Customizations</string>
     <string name="display_customization_title">PixelStar Hub</string>
     <string name="display_customization_summary">Customize your PixelStar</string>
-    <string name="lockscreen_tweaks_category_title">Lockscreen Customizations</string>
-    <string name="quicksettings_category_title">Quick Settings Customizations</string>
-    <string name="statusbar_category_title">Statusbar Customizations</string>
-    <string name="system_category_title">System Customizations</string>
-    <string name="spoof_category_title">Spoofing Customizations</string>
+    <string name="lockscreen_tweaks_category_title">Lock screen</string>
+    <string name="quicksettings_category_title">Quick settings</string>
+    <string name="statusbar_category_title">Status bar<string>
+    <string name="system_category_title">Miscellaneous</string>
+    <string name="spoof_category_title">Spoofing</string>
     
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
