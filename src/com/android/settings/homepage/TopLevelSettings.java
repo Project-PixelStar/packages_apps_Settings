@@ -213,7 +213,16 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         super.onCreatePreferences(savedInstanceState, rootKey);
         if (Flags.homepageRevamp()) {
-            return;
+        return;
+        final PreferenceScreen screen = getPreferenceScreen();
+        final int count = screen.getPreferenceCount();
+        for (int i = 0; i < count; i++) {
+            final Preference preference = screen.getPreference(i);
+
+            String key = preference.getKey();
+            if (key.equals("top_level_star")){
+                preference.setLayoutResource(R.layout.star_dashboard_preference_single);
+            }
         }
         int tintColor = Utils.getHomepageIconColor(getContext());
         iteratePreferences(preference -> {
