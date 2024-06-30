@@ -158,4 +158,7 @@
     <string name="gesture_wake_ambient">Show Ambient</string>
     <string name="gesture_wake">Fully wake</string>
 
+    <!-- face lockout -->
+    <string name="face_lockout_title">Disable face lockout</string>
+    <string name="face_lockout_summary">Deactivates 30 second timeout as well as permanent lockout after multiple failed face unlock attempts</string>
 </resources>
