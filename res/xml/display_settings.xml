@@ -166,6 +166,15 @@
             android:summary="@string/peak_refresh_rate_summary"
             settings:controller="com.android.settings.display.PeakRefreshRatePreferenceController"/>
 
+        <com.android.settings.custom.preference.SystemSettingListPreference
+            android:key="display_cutout_hidden"
+            android:title="@string/display_cutout_mode_title"
+            android:summary="%s"
+            android:entries="@array/display_cutout_mode_entries"
+            android:entryValues="@array/display_cutout_mode_values"
+            android:defaultValue="0"
+            settings:controller="com.android.settings.display.DisplayCutoutPreferenceController" />
+
         <Preference
             android:key="display_cutout_force_fullscreen_settings"
             android:title="@string/display_cutout_force_fullscreen_title"
