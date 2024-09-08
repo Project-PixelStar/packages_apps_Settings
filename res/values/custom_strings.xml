@@ -279,4 +279,11 @@
     <string name="vivid_engine_mode_title">Vivid Display</string>
     <string name="display_engine_default">Default</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
+
+    <!-- Pocket Mode-->
+    <string name="pocket_mode_category">Pocket Mode</string>
+    <string name="lock_screen_pocket_detection_title">Pocket detection</string>
+    <string name="lock_screen_pocket_detection_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="always_on_pocket_mode_enabled_title">Always on Pocket mode</string>
+    <string name="always_on_pocket_mode_summary">Always block screen and button inputs when screen is turned on</string>
 </resources>
